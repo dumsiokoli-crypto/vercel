@@ -1,0 +1,30 @@
+const faqData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "Can I start with just my phone?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes! All courses work 100% on Android or iPhone."
+      }
+    },
+    {
+      "@type": "Question",
+      name: "How much can I earn as a beginner?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Most beginners earn N50,000 – N150,000 in their first 30–60 days. With consistency, N300,000 – N500,000+ per month is very common."
+      }
+    },
+    {
+      "@type": "Question",
+      name: "Do I need experience or capital?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Zero experience needed and you can start with less than N20,000 (mostly for data and small ads)."
+      }
+    }
+  ]
+};
